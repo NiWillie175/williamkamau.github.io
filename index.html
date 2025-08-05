@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Githuku Kamau</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: gray;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        #about, #portfolio, #contact {
+            background: #f4f4f4;
+            margin: 20px 0;
+            border-radius: 10px;
+            padding: 40px 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 10px 20px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: gray;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+            margin-top: 20px;
+        }
+        form input, form textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        form button {
+            background: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        form button:hover {
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>William Githuku Kamau</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to My Website</h2>
+    <p>Hello! I'm William, a certified Electrical Engineer and entrepreneur based in Nairobi, Kenya.</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate Electrical Engineer working at Kisumu Airport. I am also an entrepreneur with a love for technology, cars (especially Audi), and football. Outside work, I enjoy drawing and spending time with my family and nieces/nephews.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here are some of my projects and works:</p>
+    <ul style="list-style: none;">
+        <li>⚡ Electrical Installations & Maintenance</li>
+        <li>📱 Mobile Phone Brokering Guide</li>
+        <li>💻 Personal Websites & Tech Projects</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: williamkamau175@gmail.com</p>
+    <p>Phone: 0728561960 | 0750825227</p>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 William Githuku Kamau. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
